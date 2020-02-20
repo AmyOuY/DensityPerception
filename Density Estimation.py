@@ -695,8 +695,6 @@ for thisComponent in endComponents:
 routineTimer.reset()
 
 
-
-
 # these shouldn't be strictly necessary (should auto-save)
 thisExp.saveAsWideText(filename+'.csv')
 thisExp.saveAsPickle(filename)
