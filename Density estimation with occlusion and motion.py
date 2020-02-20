@@ -1,5 +1,5 @@
 """
-Density estimation with occlusion and motion involved.
+Part II: Density estimation with occlusion and motion involved.
 This experiment was created using PsychoPy2 Experiment Builder (v1.90.3),
     on July 30, 2019, at 18:22
 If you publish work using this script please cite the PsychoPy publications:
