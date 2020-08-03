@@ -1,5 +1,5 @@
 # Master research project
-<h1> Developed visual perception experiments and computational models to study how human discriminate density/number of objects </h1>
+<h2> Developed visual perception experiments and computational models to study how human discriminate density/number of objects </h2>
 
 
 <hr>
