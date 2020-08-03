@@ -3,8 +3,8 @@ Developed visual perception experiments and computational models to study how hu
 
 
 
-Gaussian blobs stimulus patches
-<img src="./Gaussian blobs stimulus patches.png">
+<h3> Gaussian blobs stimulus patches </h3>
+<img src="./images/Gaussian blobs stimulus patches.png">
 
 
 
@@ -12,8 +12,8 @@ Gaussian blobs stimulus patches
 
 
 
-high-SF and low-SF versions of stimuli
-<img src="./high-SF and low-SF versions of stimuli.png">
+<h3> high-SF and low-SF versions of stimuli </h3>
+<img src="./images/high-SF and low-SF versions of stimuli.png">
 
 
 
@@ -21,5 +21,5 @@ high-SF and low-SF versions of stimuli
 
 
 
-layers of dots with occlusion
-<img src="./layers of dots with occlusion.png">
+<h3> layers of dots with occlusion </h3>
+<img src="./images/layers of dots with occlusion.png">
