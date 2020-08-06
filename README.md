@@ -1,4 +1,4 @@
-# Master research project
+# Density Perception (Master research project)
 <h2> Implemented applications with PsychoPy to produce visual stimuli for performing visual perception experiments and collecting data to build computational models </h2>
 <h2> Simulated humans’ estimate of density/number of objects using Spatial Frequency filters and Image Occupancy models </h2>
 
