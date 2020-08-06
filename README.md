@@ -1,7 +1,7 @@
 # Density Perception (Master research project)
 <ul>
-  <h3> Implemented applications with PsychoPy to produce visual stimuli for performing visual perception experiments and collecting data to build computational models </h3>
-  <h3> Simulated humans’ estimate of density/number of objects using Spatial Frequency filters and Image Occupancy models </h3>
+  <li> Implemented applications with PsychoPy to produce visual stimuli for performing visual perception experiments and collecting data to build computational models </li>
+  <li> Simulated humans’ estimate of density/number of objects using Spatial Frequency filters and Image Occupancy models </li>
 </ul>
 
 
