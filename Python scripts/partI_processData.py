@@ -7,8 +7,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-
-
 data = pd.read_csv("density_3.csv")
 
 data['correct'] = data['answer'] == data['train_key1.keys']
@@ -16,7 +14,6 @@ data['correct'] = data['answer'] == data['train_key1.keys']
 refRadius = 2
 testRadius = 2
 correctN = []
-
 
 
 ###number of gaussian blobs for test patch in 3x3 conditions
@@ -34,7 +31,6 @@ r4_t28 = [32, 40, 50, 63, 79, 100, 126]
 r4_t4 = [64, 81, 102, 128, 162, 203, 256]
 
 
-
 for num in r4_t4:
     data['rR_tR'] = np.where((data['refRadius'] == refRadius) & (data['testRadius'] == testRadius) & (data['testDotNum'] == num), 1, 0)
     data['rR_tR_correct'] = np.where((data['rR_tR'] == 1) & (data['correct'] == True) & (data['denser'] == 'test'), 1, 0)
@@ -48,7 +44,6 @@ for num in r4_t4:
 print correctN
 #correctN = [n/5.0 for n in correctN]
 #print correctN
-
 
 
 """
@@ -70,9 +65,6 @@ dr2_t4 = [0, 0, 0, 1, 1, 1, 1]
 dmodel_r2_t4 = [0, 0, 1, 1, 1, 1, 1]
 
 
-
-
-
 plt.plot(dr2_t2, 'o', color='black',  markersize=12)
 plt.plot(dmodel_r2_t2, 'o', color='red')
 plt.plot(dr2_t2, '--', color='black')
@@ -91,10 +83,6 @@ plt.plot(dmodel_r2_t2, '--', color='red')
 #plt.plot(dmodel_r2_t4, '--', color='red')
 
 
-
-
-
-
 ax = plt.gca()
 ax.set_xticklabels(('0', '0.5', '0.63', '0.79', '1.0', '1.26', '1.59', '2.0'))
 
@@ -106,4 +94,3 @@ plt.ylabel('P("Test>Ref")')
 plt.legend(('observer', 'model'), loc='upper left')
 
 """
-
